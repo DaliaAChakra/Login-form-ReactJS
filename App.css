@@ -1,0 +1,66 @@
+.App {
+  
+  background-color:rgb(135, 135, 226);
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.app__body{
+  display: flex;
+  background-color: rgb(124, 168, 206);
+  padding: 30px;
+  border-radius: 30px;
+}
+ 
+.label{
+  display: block;
+  font-size: larger;
+  color: white;
+  padding: 5px;
+}
+ 
+.input{
+
+  padding-right: 50px;
+  margin-left: 40px;
+  border-radius: 30px;
+  
+}
+.btn{
+  color: white;
+  background-color: rgb(177, 112, 112);
+  border-radius: 5px;
+  font-size: larger;
+  display: block;
+  padding: 5px;
+  margin: 10px auto;
+}
+ 
+.messages{
+  display: flex;
+  justify-content: center;
+}
+ 
+.error{
+  display: block;
+  background-color: red;
+  color: white;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 20px;
+}
+ 
+.success{
+  
+  background-color: rgb(6, 245, 6);
+  font-size: small;
+  color: black;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 30px;
+}
+
+.phone>input{
+  border-radius: 30px;
+}
